@@ -4,7 +4,7 @@ Il s'agissait de montrer comment produire un décor extérieur en 3D (une ile da
 
 Les démos proposées sont complémentaires et sont à suivre dans l'ordre :
  - demo1_heightmap : c'est la démo de base qui permet de générer le relief en 3D à partir d'un champ de hauteur (heightmap);
- - demo2_deplacement : basée sur la démo précédente, j'y ai ajouté la notion de déplacement;
+ - demo2_deplacement : basée sur la démo précédente avec une heightmap plus grande, j'y ai ajouté la notion de déplacement;
  - demo3_orientation : complément de la démo 2 qui permet de gérer l'orientation du joueur;
  - demo4_collision : complément de la démo 3 qui fait que le joueur suit maintenant les aspérités du sol;
  - demo5_bonus1 : complément de la démo 4 qui améliore le réalisme en ajoutant des sources lumineuses et une texture pour le sol;
