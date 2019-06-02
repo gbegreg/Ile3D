@@ -17,7 +17,7 @@ Vous trouverez un projet plus complet sur mon GitHub FMX ISland : https://github
 
 Grégory Bersegeay : http://www.gbesoft.fr<br>
 
-Captures d'écran :
+Captures d'écran :<br>
 <img src="https://github.com/gbegreg/Ile3D/blob/master/demo1.png">
 <img src="https://github.com/gbegreg/Ile3D/blob/master/demo2.png">
 <img src="https://github.com/gbegreg/Ile3D/blob/master/demo3.png">
