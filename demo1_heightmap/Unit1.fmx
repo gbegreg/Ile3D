@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Demo 1 : Heightmap'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Client
+    Color = claCornflowerblue
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    object Mesh1: TMesh
+      Position.Z = -5.000000000000000000
+      RotationAngle.X = 90.000000000000000000
+      Locked = True
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      HitTest = False
+      OnRender = Mesh1Render
+      MaterialSource = ColorMaterialSource1
+      Quanternion = '(0.70710676908493,0,0,0.70710676908493)'
+      object FloatAnimation1: TFloatAnimation
+        Enabled = True
+        Duration = 10.000000000000000000
+        Loop = True
+        PropertyName = 'RotationAngle.Z'
+        StartValue = 0.000000000000000000
+        StopValue = 360.000000000000000000
+      end
+    end
+  end
+  object ColorMaterialSource1: TColorMaterialSource
+    Color = claWhite
+    Left = 288
+    Top = 8
+  end
+  object ColorMaterialSource2: TColorMaterialSource
+    Color = claCrimson
+    Left = 424
+    Top = 8
+  end
+end

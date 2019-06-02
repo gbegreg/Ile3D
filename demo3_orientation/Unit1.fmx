@@ -1,0 +1,103 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Demo 3 : D'#233'placement et orientation'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Client
+    Camera = Camera1
+    Color = claCornflowerblue
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    UsingDesignCamera = False
+    OnMouseDown = Viewport3D1MouseDown
+    OnMouseMove = Viewport3D1MouseMove
+    object dmyMonde: TDummy
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      object mSol: TMesh
+        Position.Z = -5.000000000000000000
+        RotationAngle.X = 90.000000000000000000
+        Locked = True
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        HitTest = False
+        OnRender = mSolRender
+        MaterialSource = ColorMaterialSource1
+        Quanternion = '(0.70710676908493,0,0,0.70710676908493)'
+      end
+      object dmyJoueurOrientation: TDummy
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        object dmyJoueur: TDummy
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+          object Camera1: TCamera
+            AngleOfView = 45.000000000000000000
+            Position.Z = -1.000000000000000000
+            Width = 1.000000000000000000
+            Height = 1.000000000000000000
+            Depth = 1.000000000000000000
+          end
+        end
+      end
+    end
+    object Layout1: TLayout
+      Align = Bottom
+      Position.Y = 380.000000000000000000
+      Size.Width = 640.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object TrackBar1: TTrackBar
+        Align = Right
+        CanParentFocus = True
+        Max = 1.000000000000000000
+        Min = -1.000000000000000000
+        Orientation = Vertical
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 616.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 19.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        OnChange = TrackBar1Change
+      end
+    end
+  end
+  object ColorMaterialSource1: TColorMaterialSource
+    Color = claWhite
+    Left = 288
+    Top = 8
+  end
+  object ColorMaterialSource2: TColorMaterialSource
+    Color = claCrimson
+    Left = 424
+    Top = 8
+  end
+  object FloatAnimation1: TFloatAnimation
+    Enabled = True
+    Duration = 0.200000002980232200
+    Loop = True
+    OnProcess = FloatAnimation1Process
+    PropertyName = 'tag'
+    StartValue = 0.000000000000000000
+    StopValue = 1.000000000000000000
+  end
+end
