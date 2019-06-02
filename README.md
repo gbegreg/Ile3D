@@ -18,8 +18,11 @@ Vous trouverez un projet plus complet sur mon GitHub FMX ISland : https://github
 Grégory Bersegeay : http://www.gbesoft.fr<br>
 
 Captures d'écran :
-<img src="https://github.com/gbegreg/Ile3D/blob/master/capture1.png">
-<img src="https://github.com/gbegreg/Ile3D/blob/master/capture2.png">
-<img src="https://github.com/gbegreg/Ile3D/blob/master/capture3.png">
-<img src="https://github.com/gbegreg/Ile3D/blob/master/capture4.png">
-<img src="https://github.com/gbegreg/Ile3D/blob/master/capture5.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo1.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo2.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo3.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo4.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo5_bonus1.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo5_bonus2.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo5_bonus3.png">
+<img src="https://github.com/gbegreg/Ile3D/blob/master/demo5_finale.png">
